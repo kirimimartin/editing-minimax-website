@@ -8,3 +8,4 @@ The purpose of this site updation on the repository is for training purposes onl
 The training forcuses on further understanding of branches and contributors when 
 it comes to updating the Minimaxing site.
 
+(- https://kirimimartin.github.io/editing-minimax-website/ -)
