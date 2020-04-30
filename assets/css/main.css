@@ -129,7 +129,7 @@ input, select, textarea {
 	}
 
 	p {
-		line-height: 1.8em;
+		line-height: 1.6em;
 	}
 
 	strong {
@@ -1456,15 +1456,96 @@ input, select, textarea {
 		article.blog-post .blog-post-image {
 			width: 100%;
 		}
-
+/* latest articles section*/
 	ul.small-image-list li {
 		overflow: hidden;
-		margin-bottom: 1.5em;
+		padding: 0.5em 0px;
+		border-bottom: 1px #ddd solid;
 	}
 
-		ul.small-image-list li img {
-			width: 78px;
-		}
+	.latest-img{
+		float: left;
+		width: 85px;
+		height: 65px;
+		border-radius: 9px;
+		margin-right: 15px;
+
+	}	
+	.small-image-list h4{
+		color:#6583ed ;
+		letter-spacing: 0px;
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 0px;
+	}
+	.small-image-list p{
+		color:#6583ed ;
+		font-size: 14px;
+
+	}
+	.small-image-list b{
+		color:#A6A88F ;
+		font-size: 14px;		
+
+	}
+	/*tags css*/
+	.tags {
+		list-style: none;
+		margin: 0;
+		overflow: hidden; 
+		padding: 0;
+	  }
+	  
+	  .tags li {
+		float: left; 
+	  }
+	  
+	  .tag {
+		background: #eee;
+		border-radius: 3px 0 0 3px;
+		color: #999;
+		display: inline-block;
+		height: 26px;
+		line-height: 26px;
+		padding: 0 10px 0 19px;
+		position: relative;
+		margin: 0 10px 10px 0;
+		text-decoration: none;
+		-webkit-transition: color 0.2s;
+	  }
+	  
+	  .tag::before {
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+		content: '';
+		height: 6px;
+		left: 10px;
+		position: absolute;
+		width: 6px;
+		top: 10px;
+	  }
+	  
+	  .tag::after {
+		background: #fff;
+		border-bottom: 13px solid transparent;
+		border-left: 10px solid #eee;
+		border-top: 13px solid transparent;
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+	  }
+	  
+	  .tag:hover {
+		background-color: #067f9f;
+		color: white;
+	  }
+	  
+	  .tag:hover::after {
+		 border-left-color: #067f9f; 
+	  }
+
 
 	ul.big-image-list li {
 		overflow: hidden;
@@ -1801,7 +1882,7 @@ input, select, textarea {
 	}
 
 	.btn-readmore{
-		    width:100px;
+		    width:150px;
 			background-color: #007496; 
 			border: none;
 			color: white;
@@ -2176,8 +2257,13 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer-wrapper {
+		#footer-wrapper {
 				padding: 40px 0;
+				background-color: #03495b !important;
+			}
+
+		 .footer-about{
+				font-size: 200px;
 			}
 
 		/* Copyright */
