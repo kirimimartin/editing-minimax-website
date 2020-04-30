@@ -169,6 +169,11 @@ input, select, textarea {
 	section:last-child, article:last-child {
 		margin-bottom: 0;
 	}
+	
+   
+
+
+
 
 /* Container */
 
@@ -1433,6 +1438,39 @@ input, select, textarea {
 
 		}
 
+
+/*service page css*/
+
+	#service {
+	   font-size:30px;
+		
+	}
+	#service .services-list{
+		margin: 20px 12px;
+		display: inline-block;
+		width: 30%;
+	}
+	
+	#service .service-item{
+		width: 100%;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-bottom: 25px;
+	}
+	#service .service-item:hover{
+		width: 100%;
+		background-color: #addbf0;
+		margin-bottom: 25px;
+	}
+	#service .service-name{
+		text-align: center;
+		padding: 10px 20px;
+		font-size: 22px;
+		color:#067f9f ;
+	}
+	
+
+
 /* Reusable */
 
 	article.blog-post {
@@ -2268,6 +2306,9 @@ input, select, textarea {
 					letter-spacing: -1px;
 					line-height: 1.25em;
 				}
+
+
+
 
 		/* Main */
 
