@@ -1864,6 +1864,7 @@ input, select, textarea {
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	
+	
 }
 .sidebar-aboutus h2 {
 	text-transform: capitalize;
@@ -1903,6 +1904,25 @@ input, select, textarea {
 
 	#footer-wrapper {
 		padding: 4em 0;
+		background-color: #03495b;
+		color: #fff;
+	}
+	#footer-wrapper h2 {
+		
+		color: #fff;
+		text-decoration: underline #fff;
+	}
+	#footer-wrapper ul.link-lists li{
+		border-bottom: 0px;
+	}
+	#footer-wrapper ul.link-lists li a{
+		color: #fff;
+		text-decoration: none;
+		padding: 10px 0px 10px 20px;
+		display: block;
+		font-size: 17px;
+		
+		letter-spacing: -1px;
 	}
 
 /* Copyright */
@@ -2257,14 +2277,8 @@ input, select, textarea {
 
 		/* Footer */
 
-		#footer-wrapper {
-				padding: 40px 0;
-				background-color: #03495b !important;
-			}
-
-		 .footer-about{
-				font-size: 200px;
-			}
+	
+		
 
 		/* Copyright */
 
