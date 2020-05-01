@@ -1512,6 +1512,122 @@ input, select, textarea {
 	   
    }
 
+   /*Contact us form page */
+   
+   .container-contact {
+	   margin: 0 auto;
+		width: 35%;
+		border-radius: 5px;
+		background-color: #067f9f;
+		opacity: 0.8;
+		letter-spacing: 1px;
+		padding: 20px;
+		font-size: 20px;
+		color: #fff;
+  }
+  .contact-title{
+	  text-align: center;
+	  font-weight: 800;
+  }
+
+   input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Department pages*/
+  .banner-dept{
+        width: 100%;
+		background-image: url(../../images/AdobeStock_219914874.jpeg) ;
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+		height: 200px;
+	}
+	.banner-dept h2{
+		font-size: 90px;
+		padding-top: 30px;
+	}
+
+	.dept-main{
+		margin: 0 auto;
+		width: 100%;
+		
+	}
+	.dept-menu{	
+		width: 100%;
+		
+		padding: 0px;
+		margin: 0px;
+		margin: 0px;
+		border-left: 1px solid #fff;
+	}
+	.dept-menu .menu{
+		background-color: #013340;
+		border: 1px solid #fff;
+		display: inline-block;
+		margin-left: 8px;
+		padding: 25px;
+		width: 19%;
+		
+	}
+	.dept-menu .menu a{
+		color: #fff;
+		text-decoration: none;
+		letter-spacing: 1px;
+	}
+	.dept-menu .active{
+		background-color:#006e8b;
+		border: 1px solid #fff;
+		display: inline-block;
+		margin-left: 8px;
+		padding: 25px;
+		width: 19%;
+		
+	}
+
+	.dept-content {
+		width: 100%;		
+		padding: 20px 40px;
+	}
+	.dept-content .content-list{
+		display: inline-block;
+		
+		width: 32%;
+		padding-left: 20px;
+		margin-top: 60px;
+	}
+	.content-list img{
+		float: left;
+		width: 30%;
+		height: 30%;
+		margin-right: 5px;
+	}
+	.content-list .info p{
+		font-size: 14px;
+		font-weight: 600;
+		font-family:  'Ubuntu Condensed', sans-serif;
+		
+	}
 /* Reusable */
 
 	article.blog-post {
