@@ -1470,6 +1470,47 @@ input, select, textarea {
 	}
 	
 
+/*news page and posts*/	
+
+     #blogs{
+		 width: 100%;
+		 padding: 0px;
+		 
+	 }
+	 #blogs .posts-list{
+		margin: 20px 15px;
+		 display: inline-block;
+		 width: 45%;
+		 
+	 }
+	 .blog-post{
+		 width: 100%;
+	 }
+	 .blog-post .links{
+		background-color: #13192d;
+		 margin-top: 0px;
+	 }
+	 .blog-post .links ul {
+		width: 100%;
+		padding: 0px 0px;
+	   
+   }
+	 .blog-post .links ul li{
+		text-align: center;
+		 display: inline-block;
+		 width: 24%;
+		 font-size: 10px;
+		 font-weight: 800;
+		 color: #fff;
+		 letter-spacing: 0.1em;
+		
+	}
+	.blog-post .links ul li img{
+		
+		width: 25%;
+		height: 20%;
+	   
+   }
 
 /* Reusable */
 
