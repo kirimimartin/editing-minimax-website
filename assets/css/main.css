@@ -1589,11 +1589,13 @@ input, select, textarea {
 		padding: 25px;
 		width: 19%;
 		
+		
 	}
 	.dept-menu .menu a{
 		color: #fff;
 		text-decoration: none;
 		letter-spacing: 1px;
+		
 	}
 	.dept-menu .active{
 		background-color:#006e8b;
@@ -1602,12 +1604,15 @@ input, select, textarea {
 		margin-left: 8px;
 		padding: 25px;
 		width: 19%;
+		box-shadow: 0px 2px 7px 1px #888888;
+		
 		
 	}
 
 	.dept-content {
 		width: 100%;		
 		padding: 20px 40px;
+		box-shadow: 0px 2px 7px 1px #888888;
 	}
 	.dept-content .content-list{
 		display: inline-block;
@@ -1623,8 +1628,8 @@ input, select, textarea {
 		margin-right: 5px;
 	}
 	.content-list .info p{
-		font-size: 14px;
-		font-weight: 600;
+		font-size: 16px;
+		font-weight: 500;
 		font-family:  'Ubuntu Condensed', sans-serif;
 		
 	}
